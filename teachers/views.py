@@ -1,11 +1,9 @@
-import codecs
 import csv
 import io
 import zipfile
 
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from django.core.files import File
 from django.core.files.base import ContentFile
 from django.http import Http404, HttpResponseRedirect
 from django.urls import reverse
