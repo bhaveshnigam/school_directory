@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Bulk Import{% endblock %}
+
+{% block right_nav %}{% endblock %}
+
+{% block content %}
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div>
+            Teacher details CSV:
+            <span>{{ form.teacher_details }}</span>
+            <span> Please upload the CSV file for teacher details</span>
+        </div>
+
+        <br/>
+        <br/>
+        <div>
+            Teacher profile images ZIP:
+            <span>{{ form.teacher_images }}</span>
+            <span> Please upload the ZIP file for teacher profile images.</span>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <input type="submit" value="Submit">
+    </form>
+{% endblock %}

@@ -132,7 +132,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# pytype static type analyzer
+# pytype staticfiles type analyzer
 .pytype/
 
 # Cython debug symbols
@@ -175,7 +175,7 @@ bld/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
-# Uncomment if you have tasks that create the project's static files in wwwroot
+# Uncomment if you have tasks that create the project's staticfiles files in wwwroot
 #wwwroot/
 
 # Visual Studio 2017 auto generated files
@@ -723,10 +723,12 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# pytype static type analyzer
+# pytype staticfiles type analyzer
 .pytype/
 
 # Cython debug symbols
 cython_debug/
 
 .idea/
+
+media/
